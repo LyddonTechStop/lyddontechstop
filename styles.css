@@ -117,3 +117,11 @@ form button {
 form button:hover {
     background-color: #b30000; /* Darker maroon on hover */
 }
+/* Logo Styling */
+.logo {
+    max-width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto 10px; /* Center logo and add spacing */
+}
+
