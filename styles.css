@@ -1,55 +1,119 @@
+/* General Body Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #fff; /* White background */
+    color: #333; /* Neutral text color */
 }
 
+/* Header Styling */
 header {
-    background-color: maroon;
-    color: white;
-    padding: 10px 0;
+    background-color: maroon; /* Primary color: Maroon */
+    color: white; /* White text */
+    padding: 15px 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2rem;
 }
 
+/* Navigation Links */
 nav a {
-    color: white;
+    color: white; /* White links */
     text-decoration: none;
     margin: 0 15px;
+    font-weight: bold;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
+/* Main Content Styling */
 main {
     padding: 20px;
+    background-color: #f9f9f9; /* Light gray for contrast */
+    color: #333;
 }
 
+/* Footer Styling */
 footer {
     text-align: center;
     padding: 10px 0;
-    background-color: maroon;
-    color: white;
+    background-color: maroon; /* Consistent maroon footer */
+    color: white; /* White text */
 }
 
+/* Table Styling */
 table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+    background-color: white; /* White table background */
 }
 
 table th, table td {
-    border: 1px solid #ddd;
-    padding: 8px;
+    border: 1px solid #ddd; /* Light border for table cells */
+    padding: 10px;
+    text-align: left;
 }
 
 table th {
-    background-color: maroon;
-    color: white;
+    background-color: maroon; /* Maroon headers */
+    color: white; /* White header text */
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Subtle striping for readability */
+}
+
+table tr:hover {
+    background-color: #e6e6e6; /* Highlight row on hover */
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: maroon; /* Maroon labels */
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input:focus, form textarea:focus {
+    border-color: maroon; /* Maroon border on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(128, 0, 0, 0.5); /* Subtle maroon glow */
+}
+
+form button {
+    background-color: maroon; /* Maroon button */
+    color: white; /* White text */
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #b30000; /* Darker maroon on hover */
 }
