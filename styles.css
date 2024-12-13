@@ -168,35 +168,3 @@ form button:hover {
 .sales-column tr:nth-child(even) {
     background-color: #f2f2f2; /* Stripe effect for rows */
 }
-@media (min-width: 768px) {
-    .sales-container {
-        flex-direction: row; /* Horizontal layout for wider screens */
-        flex-wrap: wrap; /* Wrap if necessary */
-    }
-
-    .sales-column {
-        flex: 1 1 48%; /* Two columns side by side */
-    }
-}
-
-@media (max-width: 480px) {
-    body {
-        font-size: 0.9rem; /* Smaller font size for small screens */
-    }
-
-    header h1 {
-        font-size: 1.5rem; /* Adjust header font size */
-    }
-
-    nav a {
-        font-size: 0.9rem; /* Adjust navigation font size */
-    }
-
-    .sales-column {
-        padding: 10px; /* Reduce padding */
-    }
-
-    table th, table td {
-        padding: 5px; /* Smaller cell padding */
-    }
-}
