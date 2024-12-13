@@ -175,12 +175,13 @@ form button:hover {
 }
 /* Embedded Video Styling */
 .video-container {
+    display: block;
+    margin: 0 auto;    
     max-width: 33%;
     aspect-ratio: 16 / 9; /* Maintain a 16:9 aspect ratio */
     overflow: hidden;
     position: relative;
     background-color: #000; /* Black background for fallback */
-    margin: 20px 0;
     border: 3px solid maroon; /* Maroon border for styling */
     border-radius: 8px; /* Rounded corners */
 }
@@ -202,7 +203,7 @@ form button:hover {
     margin: 20px 0;
 }
 .image {
-    width: 30%; /* Each image takes up 30% of the container's width */
+    width: 20%; /* Each image takes up 30% of the container's width */
     height: auto; /* Maintain aspect ratio */
     border: 2px solid maroon; /* Add a maroon border */
     border-radius: 8px; /* Rounded corners */
