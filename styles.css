@@ -193,6 +193,27 @@ form button:hover {
     left: 0;
     border: none; /* Remove default iframe border */
 }
+/* Image Section Styling */
+.image-section {
+    display: flex;
+    justify-content: space-between; /* Space out images evenly */
+    align-items: center; /* Align images vertically */
+    padding: 20px;
+    margin: 20px 0;
+}
+.image {
+    width: 30%; /* Each image takes up 30% of the container's width */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid maroon; /* Add a maroon border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease; /* Add a hover effect */
+}
+
+.image:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
 /* Responsive Design */
 @media (min-width: 768px) {
     .sales-container {
