@@ -175,7 +175,7 @@ form button:hover {
 }
 /* Embedded Video Styling */
 .video-container {
-    max-width: 100%;
+    max-width: 33%;
     aspect-ratio: 16 / 9; /* Maintain a 16:9 aspect ratio */
     overflow: hidden;
     position: relative;
