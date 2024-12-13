@@ -214,7 +214,9 @@ form button:hover {
 .image:hover {
     transform: scale(1.05); /* Slightly enlarge on hover */
 }
-
+.image-section, .video-container {
+    margin-bottom: 80px; /* Ensures extra scrolling space for images and videos */
+}
 /* Responsive Design */
 @media (min-width: 768px) {
     .sales-container {
