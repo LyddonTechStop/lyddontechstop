@@ -125,7 +125,7 @@ form button:hover {
     max-width: 150px; /* Adjust size as needed */
     height: auto; /* Maintain aspect ratio */
     display: block;
-    margin: 100 auto 10px; /* Center logo and add spacing */
+    margin: 100px auto 10px; /* Center logo and add spacing */
 }
 /* Sales Page Vertical Layout */
 .sales-container {
