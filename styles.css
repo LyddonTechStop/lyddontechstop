@@ -41,8 +41,11 @@ main {
 
 /* Footer Styling */
 footer {
+    position: fixed;
     text-align: center;
-    padding: 10px 0;
+    left: 0;
+    botton: 0;
+    width: 100%;
     background-color: maroon; /* Consistent maroon footer */
     color: white; /* White text */
 }
