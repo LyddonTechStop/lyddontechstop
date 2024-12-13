@@ -126,6 +126,11 @@ form button:hover {
     height: auto; /* Maintain aspect ratio */
     display: block;
     margin: 0 auto 10px; /* Center logo and add spacing */
+    transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for transformations */
+}
+.logo:hover {
+    transform: scale(1.2); /* Slightly enlarge the logo on hover */
+    filter: brightness(1.2); /* Brighten the logo for a subtle glow effect */
 }
 /* Sales Page Vertical Layout */
 .sales-container {
