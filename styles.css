@@ -120,6 +120,25 @@ form button {
 form button:hover {
     background-color: #b30000; /* Darker maroon on hover */
 }
+main p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #800000; /* Darker maroon on hover */
+}
 /* Logo Styling */
 .logo {
     max-width: 150px; /* Adjust size as needed */
